@@ -1,0 +1,333 @@
+.product-search input:focus-visible {
+  outline: none !important;
+  box-shadow: 2px 4px 10px 0 rgb(0 34 51 / 5%), 2px 4px 10px 0 rgb(0 34 51 / 5%);
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #FD5F25;
+  box-shadow: none;
+}
+
+
+/*** 3.1 - Button ***/
+.btn-custom {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 32px;
+  text-transform: capitalize;
+  border-radius: 0;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.btn-custom-primary {
+  border: 1px solid #FD5F25;
+  background: #FD5F25;
+  color: #fff;
+}
+
+.btn-custom-primary:hover {
+  color: #FD5F25;
+  background: transparent;
+}
+
+.btn-custom-secondary {
+  border: 1px solid #C44E00;
+  background: #C44E00;
+  color: #fff;
+}
+
+.btn-custom-secondary:hover {
+  color: #C44E00;
+  background: transparent;
+}
+
+.btn-custom-white {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #1d1d1d;
+}
+
+.btn-custom-white:hover {
+  border: 1px solid #1d1d1d;
+  background: transparent;
+}
+
+.btn-cart {
+  border-radius: 0;
+  color: #d2d2d2;
+  background: transparent;
+  border: 1px solid #d2d2d2;
+}
+
+.btn-cart:hover {
+  color: #222222;
+  background: #d2d2d2;
+}
+
+
+
+/*** 3.2 - Slick_Slider ***/
+/* Slick Slider Start */
+.slick-next,
+.slick-prev {
+  z-index: 111;
+  background: #fff;
+  color: red;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  color: gray;
+}
+
+.slick-next {
+  right: 30px;
+}
+
+.product-wrapper .slick-next {
+  right: -16px;
+}
+
+.product-wrapper .slick-prev {
+  left: -16px;
+}
+
+.slick-prev {
+  left: 30px;
+}
+
+.product-wrapper .slick-prev,
+.product-wrapper .slick-next {
+  top: 42%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+  opacity: 1;
+}
+
+.slick-prev,
+.slick-next {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-top: 1px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  font-weight: 900;
+  opacity: 1;
+  line-height: 0.3;
+  color: #FD5F25;
+  font-family: 'Font Awesome 6';
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: #FD5F25;
+  outline: none;
+  background: #fff;
+}
+
+/* Slick Slider End */
+
+
+/*** 3.3 - Scroll-Top ***/
+/* Scroll To Top Start */
+.material-scrolltop.reveal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FD5F25 !important;
+  z-index: 999999;
+}
+
+.material-scrolltop::before {
+  background: #FD5F25 !important;
+}
+
+.material-scrolltop.reveal:hover {
+  cursor: pointer;
+}
+
+.material-scrolltop.reveal i {
+  font-size: 40px;
+  color: #fff !important;
+}
+
+/* Scroll To Top End */
+
+
+
+
+
+/*** 3.4 - Pagiantion ***/
+/* pagination Start */
+.pagination-section .page-item:first-child .page-link {
+  border: 0;
+}
+
+.pagination-section .page-link {
+  font-family: 'Sen';
+  font-size: 22px;
+  transition: 0.3s;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #2d2d2d;
+  padding: 0;
+}
+
+.pagination .page-item {
+  margin-right: 10px;
+}
+
+.pagination .page-item:last-child {
+  margin-right: 0;
+}
+
+.pagination-section .page-item:last-child .page-link {
+  color: #2B2C34;
+}
+
+.pagination-section .page-item:last-child .page-link:hover i {
+  color: #C44E00;
+}
+
+.pagination-section .page-item:last-child .page-link:hover {
+  color: #C44E00;
+}
+
+.pagination-section .page-link i {
+  font-size: 18px;
+  color: #2B2C34;
+  transition: 0.3s;
+}
+
+.pagination-section .page-link:hover {
+  color: #C44E00;
+  background: transparent;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.pagination-section .page-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.pagination-section .page-link.active {
+  color: #C44E00;
+}
+
+/* pagination End */
+
+
+
+
+/*** 3.5 - Top-Banner ***/
+/* Banner Start */
+.top-banner {
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.banner-title h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.banner-title .breadcrumb {
+  background-color: transparent;
+  padding-left: 0;
+}
+
+.banner-title .breadcrumb-item a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.banner-title {
+  z-index: 111;
+}
+
+.banner-title .breadcrumb-item.active {
+  font-size: 18px;
+  color: #fff;
+}
+
+.banner-title .breadcrumb-item+.breadcrumb-item::before {
+  color: #fff;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: "\f054";
+  font-family: 'FontAwesome';
+  font-size: 14px;
+  padding: 5px 10px 0 0;
+}
+
+/* Banner End */
+
+/* Re Usable Component End*/
+
+
+/* Template Default CSS */
+
+/* Section Top */
+.section-top-box {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+h2.st-title {
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.st-desc {
+  font-size: 18px;
+}
+
+.section-padding {
+  padding: 120px 0px;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0px;
+}
+
+/* Section Top */
+
+/* Template Default CSS End */

@@ -1,0 +1,145 @@
+
+#footer.section {
+  padding-bottom: 0;
+}
+
+.row-align {
+  align-items: baseline;
+}
+
+.footer .footer-faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-top-ul {
+  display: flex;
+}
+
+.footer-faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-top-ul a {
+  display: inline-block;
+  color: #fff;
+  opacity: 0.8;
+  margin-right: 25px;
+}
+
+.footer-top-ul li:last-child a {
+  margin-right: 0;
+}
+
+.footer-faq h5 {
+  font-size: 22px;
+  color: #fff;
+}
+
+.footer-social li a {
+  border: 1px solid #fff;
+  color: #1d1d1d;
+  background: #fff;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  transition: 0.6s;
+}
+
+.footer-social li a:hover {
+  color: #fff;
+  transform: rotate(360deg);
+}
+
+.footer-social li:first-child a:hover {
+  background-color: #4267b2;
+  border-color: #4267b2;
+}
+
+.footer-social li:nth-child(2) a:hover {
+  background-color: #00acee;
+  border-color: #00acee;
+}
+
+.footer-social li:nth-child(3) a:hover {
+  background: linear-gradient(29.61deg,
+      #f38334 0%,
+      #da2e7d 50.39%,
+      #6b54c6 100%);
+  border-color: #da2e7d;
+}
+
+.footer-social li:nth-child(4) a:hover {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+.footer-social {
+  display: flex;
+}
+
+.footer-social li {
+  margin-right: 20px;
+}
+
+.footer-top-title {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer-desc {
+  color: #fff;
+}
+
+.footer-item-collection li a {
+  display: inline-block;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.footer-section {
+  background: #1d1d1d;
+  padding: 100px 0 25px 0;
+}
+
+.payment-collection li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.footer-bottom-section {
+  padding: 35px 0;
+  background: #ecebe9;
+}
+
+.footer-bottom-section .copyright {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main-logo {
+  width: 110px;
+}
+
+.payment-collection {
+  display: flex;
+  align-items: center;
+}
+
+.hr-mod {
+  border-color: #4d4d4d;
+}
+
+.copyright {
+  color: #fff;
+}

@@ -1,0 +1,79 @@
+.cu-top-wrapper h2 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.cu-top-wrapper p {
+  font-size: 18px;
+}
+
+.scc-icon p i {
+  font-size: 25px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  background: #C44E00;
+  color: #fff;
+}
+
+.single-contact-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.cu-top-wrapper {
+  margin-bottom: 40px;
+}
+
+.scc-icon {
+  margin-right: 30px;
+}
+
+.scc-text h5 {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+.cu-page-form .form-group {
+  margin-bottom: 25px !important;
+}
+
+.cu-page-form .form-control {
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  padding: 25px 0;
+  background-color: transparent;
+}
+
+.cu-right {
+  background: #F6F6F6;
+  padding: 80px 30px;
+}
+
+.google-map-section iframe {
+  height: 600px;
+  width: 100%;
+  border: none;
+}
+
+.cf-msg {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cf-msg p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #717484;
+  text-transform: capitalize;
+}

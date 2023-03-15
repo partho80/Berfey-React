@@ -1,0 +1,76 @@
+.card {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 34, 51, 0.1);
+  border-radius: 0.15rem;
+}
+
+
+.tab-card {
+  border: 0;
+}
+
+.tab-card-header {
+  background: none;
+}
+
+.tab-card-header>.nav-tabs {
+  border: none;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #C44E00;
+}
+
+.tab-card-header>.nav-tabs>li {
+  margin-right: 2px;
+}
+
+.tab-card-header>.nav-tabs>li>a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+  padding: 7px 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav-tabs .nav-link {
+  border: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.tab-card-header>.nav-tabs>li>a.show {
+  border-bottom: 2px solid #C44E00;
+  color: #C44E00;
+}
+
+.tab-card-header>.nav-tabs>li>a:hover {
+  background: #ffe5ec;
+}
+
+.tab-card-header>.tab-content {
+  padding-bottom: 0;
+}
+
+.card-header {
+  padding: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.nav-tabs .nav-link.active:hover {
+  color: #fff;
+  background-color: #C44E00;
+}
+
+.tab-content>.active {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+.shop-top {
+  margin-bottom: 25px;
+  padding: 0 16px;
+}
+
+.available-search-result {
+  width: 60%;
+}
+
+.grid-icon-wrapper {
+  width: 40%;
+}
+
+.st-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid-icon {
+  float: right;
+}
+
+.grid-icon i {
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.grid-icon.active i {
+  background: #C44E00;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 0 !important;
+}

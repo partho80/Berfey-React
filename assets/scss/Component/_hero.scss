@@ -1,0 +1,226 @@
+.hero-1,
+.hero-2 {
+  position: relative;
+}
+
+.hero-section {
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-box {
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-2 .hero-box {
+  height: 100vh;
+}
+
+.hero-section .slick-list.draggable {
+  width: 100%;
+  height: 100%;
+}
+
+
+.hero-section .slick-track {
+  height: 100%;
+}
+
+.hero-section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.hero-content-wrapper {
+  width: 750px;
+}
+
+.hero-content-wrapper .hero-cont-top {
+  font-size: 25px;
+  color: #222;
+  font-weight: 500;
+  font-family: "Jost";
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+}
+
+.hero-box {
+  display: flex !important;
+  align-items: center;
+}
+
+.hero-content-wrapper h1 {
+  font-size: 75px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.hero-cont-top {
+  position: relative;
+}
+
+.hero-cont-top:after {
+  position: absolute;
+  content: "";
+  width: 40%;
+  height: 3px;
+  background: #222;
+  bottom: 0;
+  left: 30%;
+}
+
+.hero-cont-bottom {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #4d4d4d;
+}
+
+#cartModal {
+  z-index: 9999999;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#cartModal .cartTable th,
+#cartModal .cartTable td {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+#cartModal .modal-footer {
+  border-top: 0;
+  justify-content: flex-start;
+}
+
+.cart-buttons-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-left {
+  margin-right: 40px;
+}
+
+.coupon-input-2 {
+  padding: 23px;
+  width: 165px;
+  border: 1px solid #FD5F25;
+  border-radius: 0;
+}
+
+.coupon-input-2::placeholder {
+  color: #FD5F25;
+}
+
+
+/* Search Modal */
+
+button.mble-search-btn i {
+  font-size: 14px;
+}
+
+button.mble-search-btn {
+  border: 0;
+  background: transparent;
+  outline: 0;
+}
+
+.mobile-show {
+  display: none;
+}
+
+.searchModal {
+  z-index: 99999 !important;
+  top: 137px;
+}
+
+.modal-btn-search {
+  background: #424242;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1c1c1c;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.modal-btn-search:link,
+.modal-btn-search:visited {
+  color: #fff;
+}
+
+.modal-btn-search:active,
+.modal-btn-search:hover {
+  background: #1c1c1c;
+  color: #fff;
+}
+
+
+
+.searchModal button.close {
+  position: absolute;
+  right: 5px;
+  top: 7px;
+  text-align: center;
+  z-index: 999999;
+}
+
+.searchModal-2 {
+  top: 100px;
+}
+
+.searchModal .modal-dialog {
+  margin: 0;
+}
+
+.searchModal .modal-content {
+  background-color: #ff7e4e;
+  border: 0;
+  border-radius: 0;
+  height: 85px;
+}
+
+.searchModal .modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.mble-left .language-choose .dropdown-toggle {
+  color: #fff !important;
+}
+
+.searchModal .modal-dialog {
+  width: 100%;
+  max-width: 1024px;
+}

@@ -1,0 +1,105 @@
+.testimonial-section {
+  padding-top: 80px;
+  background: #F8F8F8;
+}
+
+.carousel-content-wrapper {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carousel-control-prev-icon {
+  background-image: none !important;
+}
+
+
+.carousel-item {
+  height: 530px;
+}
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  position: relative;
+  flex: unset;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-indent: 1px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: opacity .6s ease;
+}
+
+
+.carousel-content img {
+  width: 50px;
+  margin-bottom: 30px;
+}
+
+.carousel-indicators {
+  bottom: 200px;
+}
+
+.carousel-bottom h5 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 3px;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  transform: scale(1.2);
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 30px;
+  font-weight: 200;
+  opacity: 1;
+  color: #2d2d2d;
+  transition: 0.3s;
+}
+
+.carousel-control-next-icon {
+  background-image: none !important;
+}
+
+.carousel-control-next:focus .carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-control-next:hover .carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-control-prev:focus .carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #C44E00 !important;
+}
+
+.carousel-content {
+  min-height: 200px;
+  overflow: hidden;
+}
+
+.carousel-content p {
+  margin-bottom: 10px;
+}
+
+.testimonial-slider-ratings li p i {
+  color: #FD5F25;
+}
+
+.carousel-dot-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}

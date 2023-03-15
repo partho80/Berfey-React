@@ -1,0 +1,38 @@
+.instagram-section .st-desc {
+  font-size: 18px;
+  color: #C44E00;
+}
+
+.single-insta {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.insta-hover-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  left: -100%;
+  top: 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.insta-hover-box:hover {
+  color: #fff;
+}
+
+.single-insta:hover .insta-hover-box {
+  left: 0%;
+}

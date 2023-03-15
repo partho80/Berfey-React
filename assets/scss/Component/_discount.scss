@@ -1,0 +1,76 @@
+.discount-main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discount-single {
+  width: 49%;
+  padding: 60px 45px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.discount-top {
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+.discount-heading {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.discount-ration {
+  font-size: 22px;
+  font-family: "Jost";
+  color: #1c070d;
+  opacity: 50%;
+  margin-bottom: 13px;
+}
+
+.discount-content-wrapper {
+  background: rgb(255, 255, 255, 0.5);
+  padding: 25px 50px;
+  text-align: left;
+  display: flex;
+  justify-content: end;
+}
+
+.discount-content-wrapper.jc-start {
+  justify-content: start;
+}
+
+.discount-content {
+  width: 185px;
+}
+
+
+.single-discount {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.sd-content h5 {
+  font-size: 45px;
+  font-weight: 600;
+  font-style: italic;
+  color: #C44E00;
+  margin-bottom: 40px;
+}
+
+.sd-content {
+  position: absolute;
+  z-index: 5;
+}
+
+.latest-product-2 {
+  background: #F5F5F5;
+}
